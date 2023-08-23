@@ -1,0 +1,136 @@
+/* menu */
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffff;
+    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Signika', sans-serif;
+}
+body{
+    background: #36323c;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e1a20;
+    padding: 10px;
+}
+.menu .menu-head-1 ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+ul a{
+    text-decoration: none;
+}
+.menu .menu-head-1 ul li{
+    padding: 5px;
+}
+.menu .menu-head-1 ul li:first-child{
+    font-size: 1.3rem;
+}
+.menu .menu-head-1 ul li:nth-child(2){
+    margin-top: 3px;
+}
+.menu .menu-head-2{
+    display: flex;
+    align-items: center;
+}
+.menu .menu-head-2 input{
+    padding: 7px;
+    border: none;
+}
+ #btn,#btn1,.btn3{
+    padding: 7px 10px 7px 10px;
+    background: #215bf0;
+    border: none;
+    cursor: pointer;
+    margin-left: 7px;
+    color: #f7f7fA;
+ }
+ #btn1{
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.btn3{
+    margin-left: 0px;
+}
+/* main-part */
+.Main-part{
+    margin-top: 1.7rem;
+}
+.Main-part .note-container{
+    padding: 10px;
+    background: #252939;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.Main-part .note-container .heading{
+    padding: 1.6rem;
+}
+.Main-part .note-container .add-note{
+    /* display: flex;
+    flex-direction: column; */
+    padding: 6px 0px 0px 1.7rem ;
+    justify-content: center;
+}
+.Main-part .note-container .add-note label{
+    font-size: 1.4rem;
+}
+.Main-part .note-container .add-note textarea{
+    width: 700px;
+    height: 200px;
+    margin-top: 10px;
+    color: #36323c;
+    outline: none;
+    padding: 7px;
+    font-size: 1.4rem;
+}
+.Main-part .note-container .add-note label,textarea{
+    display: block;
+}
+/* note-part */
+.note-part{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.note-part .notes{
+    padding: 1.7rem;
+    background: #252939;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.note-part .notes .your-notes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.note-part .notes .your-notes .note-1{
+    padding: 13px;
+    /* max-width: 18rem; */
+    background: #36323c;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-left: 9px;
+}
+.note-1 h3,.note-1 p,.note-1 button{
+ margin-top: 10px;
+}
+.add-title{
+    padding: 6px 0px 0px 1.7rem ;
+}
+.add-title .title{
+    display: block;
+    font-size: 1.4rem;
+}
+.add-title .text-title{
+    padding: 8px;
+    color: #36323c;
+    outline: none;
+    font-size: 1.3rem;
+    width: 700px;
+    margin-top: 8px;
+}

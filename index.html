@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Signika:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-head-1">
+            <ul>
+                <li><a href="#">Magic Notes</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>            
+        </div>
+        <div class="menu-head-2">
+            <input type="text" id="searchtxt" name="serch" placeholder="search Notes">
+            <button id="btn">Serach</button>
+        </div>
+    </div>
+    <div class="Main-part">
+        <div class="container">
+            <div class="row">
+                <div class="note-container">
+                    <div class="heading">
+                        <h1>Welcome to Magic Notes</h1>
+                    </div>
+                    <div class="add-title">
+                        <label for="text" class="title">Add a Title</label>
+                        <input type="text" name="text" class="text-title" id="addtitle">
+                    </div>
+                    <div class="add-note">
+                        <label for="text-area">Add a Note</label>
+                        <textarea name="text-area" id="addNote" cols="30" rows="10"></textarea>
+                        <button id="btn1">Add Note</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="note-part">
+        <div class="container">
+            <div class="row">
+                <div class="notes">
+                    <div class="heading">
+                        <h1>Your Notes</h1>
+                    </div>
+                    <div class="your-notes" id="ynotes"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
